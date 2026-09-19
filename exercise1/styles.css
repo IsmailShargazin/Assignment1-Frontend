@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to bottom, #eeeeee, #cccccc);
+    color: #222222;
+}
+
+.header {
+    padding: 25px;
+    text-align: center;
+    background-color: #111111;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+}
+
+.header p {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.navbar {
+    padding: 15px;
+    text-align: center;
+    background-color: #333333;
+}
+
+.navbar a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #bbbbbb;
+    text-decoration: underline;
+}
+
+.content {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 25px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #999999;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #111111;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.about-section {
+    text-align: center;
+}
+
+.about-section img {
+    width: 300px;
+    max-width: 100%;
+    border: 4px solid #111111;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #777777;
+}
+
+ol {
+    list-style-type: decimal;
+    line-height: 1.8;
+}
+
+ul {
+    list-style-type: square;
+    line-height: 1.8;
+}
+
+.links-section a {
+    color: #333333;
+}
+
+.links-section a:hover {
+    color: #777777;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #111111;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555555;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #111111;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px;
+    }
+
+    .content {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
