@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #111111;
+}
+
+.header {
+    padding: 25px;
+    text-align: center;
+    background-color: #111111;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header p {
+    margin-bottom: 0;
+}
+
+.navbar {
+    padding: 15px;
+    text-align: center;
+    background-color: #333333;
+}
+
+.navbar a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #bbbbbb;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 15px;
+}
+
+.table-section,
+.form-section {
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #999999;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px #aaaaaa;
+}
+
+#grades-title {
+    text-align: center;
+    color: #111111;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #333333;
+}
+
+th {
+    background-color: #111111;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+tbody .highlight-row {
+    background-color: #fff2a8;
+}
+
+tfoot {
+    font-weight: bold;
+    background-color: #bbbbbb;
+}
+
+.form-section h2 {
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #eeeeee;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #777777;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.question {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.radio-group {
+    margin-bottom: 15px;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
+.radio-group label {
+    display: inline;
+    margin-right: 20px;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #111111;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #111111;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .navbar a {
+        display: block;
+        margin: 10px;
+    }
+
+    main {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .table-section,
+    .form-section {
+        padding: 15px;
+    }
+
+    th,
+    td {
+        padding: 7px;
+        font-size: 14px;
+    }
+
+    form {
+        padding: 15px;
+    }
+}

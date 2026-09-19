@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Task 4 | Grades and Feedback</title>
+
+    <link rel="stylesheet" href="task4.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>Student Grades and Feedback</h1>
+    <p>Grades table and student feedback form</p>
+</header>
+
+<nav class="navbar">
+    <a href="index.html">Task 1</a>
+    <a href="task2.html">Task 2</a>
+    <a href="exercise1/index.html">Task 3</a>
+    <a href="task4.html">Task 4</a>
+    <a href="https://www.figma.com/design/34v4kNHFo1Xc0uAk57nmWh/MSQ-Astana-Website-Redesign?node-id=0-1&t=fgxPWuyjkfPvvqma-1">Task 5</a>
+</nav>
+
+<main>
+
+    <section class="table-section">
+        <h2 id="grades-title">Student Grades</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Ismail</td>
+                    <td>Web Technologies</td>
+                    <td>95</td>
+                </tr>
+
+                <tr class="highlight-row">
+                    <td>Arman</td>
+                    <td>Programming</td>
+                    <td>90</td>
+                </tr>
+
+                <tr>
+                    <td>Aruzhan</td>
+                    <td>Mathematics</td>
+                    <td>88</td>
+                </tr>
+
+                <tr>
+                    <td>Dias</td>
+                    <td>Operating Systems</td>
+                    <td>92</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">Average Grade</td>
+                    <td>91.25</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section class="form-section">
+        <h2>Feedback Form</h2>
+
+        <form action="#" method="post">
+
+            <label for="name">Name:</label>
+
+            <input type="text"
+                   id="name"
+                   name="name"
+                   placeholder="Enter your name"
+                   required>
+
+            <label for="email">Email:</label>
+
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Enter your email"
+                   required>
+
+            <label for="role">Your role:</label>
+
+            <select id="role" name="role" required>
+                <option value="">Select your role</option>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="other">Other</option>
+            </select>
+
+            <p class="question">Do you like this webpage?</p>
+
+            <div class="radio-group">
+
+                <input type="radio"
+                       id="yes"
+                       name="answer"
+                       value="yes"
+                       required>
+
+                <label for="yes">Yes</label>
+
+                <input type="radio"
+                       id="no"
+                       name="answer"
+                       value="no">
+
+                <label for="no">No</label>
+
+            </div>
+
+            <label for="comments">Comments:</label>
+
+            <textarea id="comments"
+                      name="comments"
+                      rows="5"
+                      placeholder="Write your comments"></textarea>
+
+            <button type="submit">Submit Feedback</button>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Ismail Shargazin | SE-2529</p>
+</footer>
+
+</body>
+
+</html>
