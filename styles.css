@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #111111;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #111111;
+    color: white;
+}
+
+#main-title {
+    margin: 0 0 15px;
+    font-size: 32px;
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #bbbbbb;
+}
+
+.tasks-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 18px 0;
+    margin: 0;
+    background-color: #333333;
+}
+
+.tasks-nav a {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tasks-nav a:hover {
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #999999;
+}
+
+h2 {
+    color: #111111;
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    margin: 5px;
+}
+
+.useful-links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.useful-links a:hover {
+    background-color: #555555;
+}
+
+.profile-card {
+    width: 300px;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.profile-card img {
+    width: 180px;
+    height: 240px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.group {
+    color: #555555;
+    font-weight: bold;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #111111;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .profile-card {
+        width: 100%;
+    }
+
+    .profile-card img {
+        max-width: 100%;
+    }
+}
